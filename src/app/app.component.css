@@ -1,0 +1,205 @@
+table {
+  position: relative;
+  border: 0;
+  border-collapse: collapse;
+  cell-spacing: "0";
+  cell-padding: "0";
+  border-spacing: 0 !important;
+  padding: 0;
+  width: 50%;
+  margin: 80px auto 0px auto;
+}
+
+
+table tr {
+  position: relative;
+}
+
+table tr .bold {
+  font-weight: bold;
+
+}
+table tr td {
+  position: relative;
+  border-color: #EEE;
+  border-width: 1px;
+  padding: 20px 7px;
+  font-size: 14px;
+  color: #333333;
+}
+
+.center-aligned{
+  text-align: center;
+}
+
+table.table-bordered tr td {
+  border-bottom-style: solid;
+}
+
+
+table.table-bordered tr td:first-child {
+  border-left-style: solid;
+}
+
+table.table-bordered tr td:last-child {
+  border-right-style: solid;
+}
+
+table.table-bordered tr:first-child td {
+  border-top-style: solid;
+}
+
+table.table-striped tr:nth-of-type(even) td {
+  background-color: #f7f7f7;
+
+}
+table.table-striped tr:nth-of-type(odd) td {
+  background-color: #FFF;
+
+}
+table.table-striped-main-color tr:nth-of-type(even) td {
+  background-color: #fbfdfa;
+}
+
+table.table-hovered tr:hover td, table.table-striped tr:hover td {
+  background-color: #ffff9451;
+}
+
+table.no-padding tr td {
+  padding: 0;
+}
+
+table.padding-5 tr td {
+  padding: 5px;
+}
+
+table.padding-10-5 tr td {
+  padding: 10px 5px;
+}
+
+.headed-table td {
+    padding: 10px;
+    border-color: #d9d9d9;
+    font-size: 13px;
+}
+
+.headed-table tr:first-child td {
+    background: #fdfefe;
+    background: linear-gradient(to bottom, #fdfefe 0%, #f6f8f8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfefe', endColorstr='#f6f8f8',GradientType=0 );
+    padding: 10px 10px;
+    border-right: solid 1px #ebebeb;
+}
+
+.desktop-column-20 {
+    width: 100% !important;
+}
+
+.edit-delete{
+    display: flex;
+    justify-content: space-evenly;
+}
+.edit-delete i{
+    font-size: 17px;
+}
+
+.addButton div{
+    margin: 30px auto 30px auto;
+}
+
+.addButton button{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.modal-box-lg.showing.ballard-popup {
+    width: 551px;
+}
+
+.ballard-popup{
+    display: none;
+}
+
+.delete-popup{
+  display: none;
+  width: 450px !important;
+}
+
+.modal-box-lg.showing {
+    display: table !important;
+    position: fixed;
+    z-index: 1000;
+    background: #fff;
+    width: 75%;
+    margin: 0 auto;
+    left: 0;
+    right: 0px;
+    text-align: center;
+    top: 35%;
+    box-shadow: 0 0 5px #333;
+    border-radius: 7px;
+}
+
+.modal-popup-close-btn span{
+    font-size: 25px;
+}
+
+.overlay {
+    background-color: rgba(51, 51, 51, 0.25);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: none;
+    top: 0px;
+    z-index: 1000;
+    left: 0px;
+
+}
+
+.modal-popup-close-btn {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    /* background-image: url(sprite.png); */
+    background-color: transparent;
+    position: absolute;
+    right: -40px;
+    top: -35px;
+    background-position: -1189px -13px;
+}
+
+.inicu-tab-container>.tab-header {
+    display: block;
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+}
+
+.inicu-tab-container{
+    height: 245px;
+}
+
+.padding-20-x {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.full {
+    width: 100%;
+}
+
+.emailInput{
+    margin: 40px auto 0px auto;
+}
+
+.emailInput input{
+    border-radius: 23px;
+}
+
+.deleteBlock{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+}
